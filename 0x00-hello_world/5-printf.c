@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  * Description: A program that returns a line and returns a value of 0
- * Return: returns 0 (Success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
