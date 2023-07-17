@@ -10,18 +10,18 @@ int main(void)
 	int m;
 	int l;
 
-	for (n = 48; n < 58; n++)
+	for (n = 0; n < 8; n++)
 	{
-		for (m = 49; m < 58; n++)
+		for (m = n + 1; m < 9; n++)
 		{
-			for (l = 50; l < 58; n++)
+			for (l = m + 1; l < 10; n++)
 			{
 				if (l > m && m > n)
 				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
+					putchar(n + '0');
+					putchar(m + '0');
+					putchar(l + '0');
+					if (n != 7 || m != 8 || l != 9)
 					{
 						putchar(',');
 						putchar(' ');
