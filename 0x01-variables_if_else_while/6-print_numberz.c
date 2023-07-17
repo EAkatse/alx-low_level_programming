@@ -8,10 +8,10 @@ int main(void)
 {
 	int n;
 
-	for (n = 0; n <= 9; n++)
+	for (n = 48; n < 58; n++)
 	{
-		putchar(n + 48);
+		putchar(n);
 	}
-	printf("\n");
+	putchar('\n');
 	return (0);
 }
